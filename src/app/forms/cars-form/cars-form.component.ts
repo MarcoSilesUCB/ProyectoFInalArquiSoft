@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Car } from '../../models/car.model'
 import { CarsService } from '../../services/cars.service';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-cars-form',
@@ -12,7 +13,9 @@ export class CarsFormComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    public carsService: CarsService
+    public carsService: CarsService,
+    private router: Router,
+    private _location: Location
   ) { }
 
   isNew: boolean = true;
@@ -32,8 +35,11 @@ export class CarsFormComponent implements OnInit {
     if (!this.isNew) {
       this.car = await this.carsService.getCar(id);
     }
+  }
 
-
+  async createCar(car: Car) {
+    await this.carsService.createCar(car);
+    this._location.back();
   }
 
 }

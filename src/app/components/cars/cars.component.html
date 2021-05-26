@@ -4,7 +4,8 @@
     <h6><b>Brand: </b>{{car.brand}}</h6>
     <h6><b>Color: </b>{{car.color}}</h6>
 
-    <button type="button" class="btn btn-light" (click)="editCar(car)">Edit Car</button>
+    <button type="button" class="btn btn-light" (click)="editCar(car.id)">Edit</button>
+    <button type="button" class="btn btn-light" (click)="deleteCar(car.id)">Delete</button>
 </li>
 
 

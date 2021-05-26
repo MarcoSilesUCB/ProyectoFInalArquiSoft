@@ -1,4 +1,5 @@
-<h1>Edit Car</h1>
+<h1 *ngIf="isNew">Create Car</h1>
+<h1 *ngIf="!isNew">Edit Car</h1>
 <form>
     <div class="form-group">
         <label for="carBrand">Brand</label>
@@ -8,4 +9,6 @@
         <label for="carColor">Color</label>
         <input type="text" class="form-control" id="color-id" name="color-id" [(ngModel)]="car.color">
     </div>
+    <button *ngIf="isNew" type="button" class="btn btn-light" (click)="createCar(car)">Create</button>
+    <!-- <button *ngIf="!isNew" type="button" class="btn btn-light" (click)="createCar(car)">Confirm</button> -->
 </form>
