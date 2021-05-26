@@ -23,13 +23,6 @@ export class AppComponent {
 
   async ngOnInit() {
     await this.initFirebase();
-    // this.testService.test();
-    // this.carsService.getCars();
-    // this.carsService.getCar("xFnSDLVfd5ElvSD2kLZc");
-    // this.car.brand = "Nissan";
-    // this.car.color = "ROJOJO";
-    // this.car.id = "1234";
-    // this.carsService.editCar(this.car);
   }
 
   async initFirebase() {

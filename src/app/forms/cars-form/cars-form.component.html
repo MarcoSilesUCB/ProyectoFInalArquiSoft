@@ -10,5 +10,5 @@
         <input type="text" class="form-control" id="color-id" name="color-id" [(ngModel)]="car.color">
     </div>
     <button *ngIf="isNew" type="button" class="btn btn-light" (click)="createCar(car)">Create</button>
-    <!-- <button *ngIf="!isNew" type="button" class="btn btn-light" (click)="createCar(car)">Confirm</button> -->
+    <button *ngIf="!isNew" type="button" class="btn btn-light" (click)="editCar(car)">Confirm</button>
 </form>

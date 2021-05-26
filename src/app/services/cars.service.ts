@@ -39,7 +39,7 @@ export class CarsService {
     return car;
   }
   async deleteCar(id: any) {
-    const car = await this.http.get(`${this.cloudFunctionsURL}deleteCar?id=${id}`, { responseType: 'json' }).toPromise();
+    const car = await this.http.get(`${this.cloudFunctionsURL}deleteCar?id=${id}`, { responseType: 'blob' }).toPromise();
     console.log(car);
   }
   async createCar(car: Car) {
@@ -50,8 +50,9 @@ export class CarsService {
     params = params.append('car', JSON.stringify(car));
 
 
-    await this.http.get(`${this.cloudFunctionsURL}createCar`, { responseType: 'json', params: params }).toPromise();
+    await this.http.get(`${this.cloudFunctionsURL}createCar`, { responseType: 'blob', params: params }).toPromise();
     console.log(car);
+
   }
   async editCar(car: Car) {
 
@@ -61,7 +62,8 @@ export class CarsService {
     params = params.append('car', JSON.stringify(car));
 
 
-    await this.http.get(`${this.cloudFunctionsURL}editCar`, { responseType: 'json', params: params }).toPromise();
+    await this.http.get(`${this.cloudFunctionsURL}editCar?id=${car.id}`, { responseType: 'blob', params: params }).toPromise();
+
     console.log(car);
 
   }
