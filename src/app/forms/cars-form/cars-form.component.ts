@@ -39,16 +39,15 @@ export class CarsFormComponent implements OnInit {
 
   async createCar(car: Car) {
     await this.carsService.createCar(car);
-    this.goBack();
+    this._location.back();
 
   }
   async editCar(car: Car) {
     await this.carsService.editCar(car);
-    this.router.navigate(["/cars-list"]);
+    this._location.back();
+
   }
 
-  goBack() {
-    this._location.back();
-  }
+
 
 }

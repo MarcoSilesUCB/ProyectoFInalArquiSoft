@@ -18,12 +18,6 @@ export class CarsService {
     public http: HttpClient
   ) { }
 
-  // async getCars() {
-  //   const cars = await this.http.get(`${this.cloudFunctionsURL}getCars`, { responseType: 'json' }).toPromise();
-  //   this.cars = Object.values(cars); // objeto a array 
-  //   console.log(this.cars);
-  //   return this.cars;
-  // }
   async getCars() {
     const cars = await this.http.get(`${this.cloudFunctionsURL}getCars`, { responseType: 'json' }).toPromise();
     this.cars = Object.values(cars); // objeto a array 
@@ -35,6 +29,7 @@ export class CarsService {
     let car = await this.http.get(`${this.cloudFunctionsURL}getCar?id=${id}`, { responseType: 'json' }).toPromise();
     console.log(car);
     this.router.navigate(["/cars-form"], { queryParams: { id } });
+
     // return (await db.collection("cars").doc(id).get()).data() as Car;
     return car;
   }
