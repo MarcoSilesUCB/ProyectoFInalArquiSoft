@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import firebase from 'firebase/app';
 import "firebase/firestore";
-import { TestService } from '../app/services/test.service';
+import { CarsService } from './services/cars.service';
 import { Car } from '../app/models/car.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,8 @@ export class AppComponent {
   title = 'concessionaire';
 
   constructor(
-    public testService: TestService
+    public router: Router,
+    public carsService: CarsService
   ) { }
 
   car: Car = new Car();
@@ -22,12 +24,12 @@ export class AppComponent {
   async ngOnInit() {
     await this.initFirebase();
     // this.testService.test();
-    this.testService.getCars();
-    this.testService.getCar("xFnSDLVfd5ElvSD2kLZc");
-    this.car.brand = "Nissan";
-    this.car.color = "Black";
-    this.car.id = "1234";
-    this.testService.editCar(this.car);
+    // this.carsService.getCars();
+    // this.carsService.getCar("xFnSDLVfd5ElvSD2kLZc");
+    // this.car.brand = "Nissan";
+    // this.car.color = "ROJOJO";
+    // this.car.id = "1234";
+    // this.carsService.editCar(this.car);
   }
 
   async initFirebase() {
