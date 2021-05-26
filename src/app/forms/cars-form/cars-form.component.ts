@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+import { Car } from '../../models/car.model'
+import { CarsService } from '../../services/cars.service';
 
 @Component({
   selector: 'app-cars-form',
@@ -7,9 +10,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarsFormComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private route: ActivatedRoute,
+    public carsService: CarsService
+  ) { }
 
-  ngOnInit(): void {
+  isNew: boolean = true;
+  car: Car | any = new Car();
+
+  async ngOnInit() {
+    this.route.queryParams.subscribe(async params => {
+
+      const id = params["id"];
+      this.isNew = (id == undefined);
+      await this.init(id);
+    })
+  }
+  async init(id: any) {
+    this.isNew = false;
+    console.log("new ", this.isNew);
+    if (!this.isNew) {
+      this.car = await this.carsService.getCar(id);
+    }
+
+
   }
 
 }

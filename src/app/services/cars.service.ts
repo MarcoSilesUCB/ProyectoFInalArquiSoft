@@ -31,9 +31,12 @@ export class CarsService {
     return this.cars;
   }
   async getCar(id: any) {
-    const car = await this.http.get(`${this.cloudFunctionsURL}getCar?id=${id}`, { responseType: 'json' }).toPromise();
+    const db = firebase.firestore();
+    let car = await this.http.get(`${this.cloudFunctionsURL}getCar?id=${id}`, { responseType: 'json' }).toPromise();
     console.log(car);
-    this.router.navigate(["/cars-form"], { queryParams: { car } });
+    this.router.navigate(["/cars-form"], { queryParams: { id } });
+    // return (await db.collection("cars").doc(id).get()).data() as Car;
+    return car;
   }
   async deleteCar(id: any) {
     const car = await this.http.get(`${this.cloudFunctionsURL}deleteCar?id=${id}`, { responseType: 'json' }).toPromise();
