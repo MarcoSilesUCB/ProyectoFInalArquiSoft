@@ -27,7 +27,7 @@ export class CarsFormComponent implements OnInit {
     })
   }
   async init(id: any) {
-    this.isNew = false;
+
     console.log("new ", this.isNew);
     if (!this.isNew) {
       this.car = await this.carsService.getCar(id);
