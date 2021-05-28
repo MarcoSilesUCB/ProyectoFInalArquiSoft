@@ -3,5 +3,7 @@ export class Car {
     color: string = "";
     brand: string = "";
 
+    // Se puede poner metodos acá
+
 
 }
