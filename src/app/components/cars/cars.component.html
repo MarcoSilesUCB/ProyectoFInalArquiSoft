@@ -1,13 +1,13 @@
-<h1>CARS</h1>
+<h1>Autos</h1>
 
 <li *ngFor="let car of cars;" class="list-group-item">
-    <h6><b>Brand: </b>{{car.brand}}</h6>
+    <h6><b>Marca: </b>{{car.brand}}</h6>
     <h6><b>Color: </b>{{car.color}}</h6>
 
-    <button type="button" class="btn btn-light" (click)="editCar(car.id)">Edit</button>
-    <button type="button" class="btn btn-light" (click)="deleteCar(car.id)">Delete</button>
+    <button type="button" class="btn btn-light" (click)="editCar(car.id)">Editar</button>
+    <button type="button" class="btn btn-light" (click)="deleteCar(car.id)">Eliminar</button>
 </li>
 
 
 
-<button type="button" class="btn btn-primary" routerLink="/cars-form">Register Car</button>
+<button type="button" class="btn btn-primary" routerLink="/cars-form">Registrar Auto</button>
