@@ -1,25 +1,26 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { Car } from '../../models/car.model'
-import { CarService } from '../../services/car.service';
+import { Spare } from '../../models/spare.model'
+import { SpareService } from '../../services/spare.service';
 import { Location } from '@angular/common';
 
+
 @Component({
-  selector: 'app-cars-form',
-  templateUrl: './cars-form.component.html',
-  styleUrls: ['./cars-form.component.scss']
+  selector: 'app-spares-form',
+  templateUrl: './spares-form.component.html',
+  styleUrls: ['./spares-form.component.scss']
 })
-export class CarsFormComponent implements OnInit {
+export class SparesFormComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    public carsService: CarService,
+    public spareService: SpareService,
     private router: Router,
     private _location: Location
   ) { }
 
   isNew: boolean = true;
-  car: Car | any = new Car();
+  spare: Spare | any = new Spare();
 
   async ngOnInit() {
     this.route.queryParams.subscribe(async params => {
@@ -33,21 +34,19 @@ export class CarsFormComponent implements OnInit {
 
     console.log("new ", this.isNew);
     if (!this.isNew) {
-      this.car = await this.carsService.getCar(id);
+      this.spare = await this.spareService.getSpare(id);
     }
   }
 
-  async createCar(car: Car) {
-    await this.carsService.createCar(car);
+  async createSpare(spare: Spare) {
+    await this.spareService.createSpare(spare);
     this._location.back();
 
   }
-  async editCar(car: Car) {
-    await this.carsService.editCar(car);
+  async editSpare(spare: Spare) {
+    await this.spareService.editSpare(spare);
     this._location.back();
 
   }
-
-
 
 }

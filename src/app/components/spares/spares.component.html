@@ -1,0 +1,13 @@
+<h1>Repuestos</h1>
+
+<li *ngFor="let spare of spares;" class="list-group-item">
+    <h6><b>Nombre: </b>{{spare.name}}</h6>
+    <h6><b>Precio: </b>{{spare.price}}</h6>
+
+    <button type="button" class="btn btn-light" (click)="editSpare(spare.id)">Editar</button>
+    <button type="button" class="btn btn-light" (click)="deleteSpare(spare.id)">Eliminar</button>
+</li>
+
+
+
+<button type="button" class="btn btn-primary" routerLink="/spares-form">Registrar Respuesto</button>

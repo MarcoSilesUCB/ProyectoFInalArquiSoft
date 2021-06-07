@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Car } from '../../models/car.model'
-import { CarsService } from '../../services/cars.service';
+import { CarService } from '../../services/car.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -12,21 +12,21 @@ export class CarsComponent implements OnInit {
 
   constructor(
     public router: Router,
-    public carsService: CarsService
+    public carService: CarService
   ) { }
 
   cars: Car[] = [];
 
   async ngOnInit() {
-    this.cars = await this.carsService.getCars();
+    this.cars = await this.carService.getCars();
   }
 
   async editCar(id: any) {
-    await this.carsService.getCar(id);
+    await this.carService.getCar(id);
   }
   async deleteCar(id: any) {
-    await this.carsService.deleteCar(id);
-    this.cars = await this.carsService.getCars();
+    await this.carService.deleteCar(id);
+    this.cars = await this.carService.getCars();
 
   }
 

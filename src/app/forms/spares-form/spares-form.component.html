@@ -1,0 +1,14 @@
+<h1 *ngIf="isNew">Agregar Respuesto</h1>
+<h1 *ngIf="!isNew">Editar Respuesto</h1>
+<form>
+    <div class="form-group">
+        <label for="spareName">Nombre</label>
+        <input type="text" class="form-control" id="spareName-id" name="spareName-id" [(ngModel)]="spare.name">
+    </div>
+    <div class="form-group">
+        <label for="sparePrice">Precio</label>
+        <input type="text" class="form-control" id="price-id" name="price-id" [(ngModel)]="spare.price">
+    </div>
+    <button *ngIf="isNew" type="button" class="btn btn-light" (click)="createSpare(spare)">Agregar</button>
+    <button *ngIf="!isNew" type="button" class="btn btn-light" (click)="editSpare(spare)">Confirmar</button>
+</form>
