@@ -1,11 +1,10 @@
 <div class="container">
-    <h1>Autos</h1>
-    <button type="button" class="btn btn-primary" routerLink="/cars-form">Registrar Auto</button>
+    <div class="main-picture mt-2">
+        <img src="../../../assets/images/promo.png" alt="">
+    </div>
+    <button type="button" class="btn btn-secondary mt-3" routerLink="/cars-form">Agregar</button>
     <div class="row col-12 mt-4">
         <div class="card col-6" style="width: 18rem;" *ngFor="let car of cars">
-            <div class="card-header">
-                Foto
-            </div>
             <div class="card-image-body">
                 <img class="card-img-body" src="../../../assets/images/suzuki1.png" alt="Card image cap">
             </div>
