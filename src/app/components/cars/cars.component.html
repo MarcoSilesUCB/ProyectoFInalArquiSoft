@@ -1,13 +1,26 @@
-<h1>Autos</h1>
-
-<li *ngFor="let car of cars;" class="list-group-item">
-    <h6><b>Marca: </b>{{car.brand}}</h6>
-    <h6><b>Color: </b>{{car.color}}</h6>
-
-    <button type="button" class="btn btn-light" (click)="editCar(car.id)">Editar</button>
-    <button type="button" class="btn btn-light" (click)="deleteCar(car.id)">Eliminar</button>
-</li>
-
-
-
-<button type="button" class="btn btn-primary" routerLink="/cars-form">Registrar Auto</button>
+<div class="container">
+    <h1>Autos</h1>
+    <button type="button" class="btn btn-primary" routerLink="/cars-form">Registrar Auto</button>
+    <div class="row col-12 mt-4">
+        <div class="card col-6" style="width: 18rem;" *ngFor="let car of cars">
+            <div class="card-header">
+                Foto
+            </div>
+            <div class="card-image-body">
+                <img class="card-img-body" src="../../../assets/images/suzuki1.png" alt="Card image cap">
+            </div>
+            <div class="card-body">
+                <p class="card-text"><strong>Marca: </strong>{{car.brand}}</p>
+                <p class="card-text"><strong>Color: </strong>{{car.color}}</p>
+            </div>
+            <div class="card-footer">
+                <div class="button-1 mb-2">
+                    <button type="button" class="btn btn-warning" (click)="editCar(car.id)">Modificar</button>
+                </div>
+                <div class="button-1">
+                    <button type="button" class="btn btn-danger" (click)="deleteCar(car.id)">Quitar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
