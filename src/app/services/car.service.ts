@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 @Injectable({
   providedIn: 'root'
 })
-export class CarsService {
+export class CarService {
 
   cloudFunctionsURL: string = "https://us-central1-concesionaria-autos.cloudfunctions.net/";
   cars: any = [];
