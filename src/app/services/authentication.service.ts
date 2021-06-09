@@ -30,12 +30,13 @@ export class AuthenticationService {
 
   async logout() {
     await firebase.auth().signOut();
-    this.router.navigate([""])
+    this.router.navigate(["/cars-list"])
   }
 
   public isLoggedIn() {
 
     const user = firebase.auth().currentUser;
+    console.log((Boolean(user)));
     return (Boolean(user));
   }
 }
