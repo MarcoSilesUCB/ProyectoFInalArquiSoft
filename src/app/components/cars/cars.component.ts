@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Car } from '../../models/car.model'
 import { CarService } from '../../services/car.service';
 import { Router } from '@angular/router';
+import { AuthenticationService } from '../../services/authentication.service'
 
 @Component({
   selector: 'app-cars',
@@ -11,12 +12,14 @@ import { Router } from '@angular/router';
 export class CarsComponent implements OnInit {
 
   constructor(
+    public authenticationService: AuthenticationService,
     public router: Router,
-    public carService: CarService
+    public carService: CarService,
+
   ) { }
 
   cars: Car[] = [];
-  isLoggedIn = false;
+  isLoggedIn = true;
 
   async ngOnInit() {
     this.cars = await this.carService.getCars();
@@ -34,6 +37,9 @@ export class CarsComponent implements OnInit {
   openCar(car: Car) {
     this.router.navigateByUrl(`vehicles-detail/${car.id}`);
 
+  }
+  async loggedIn() {
+    this.isLoggedIn = await this.authenticationService.isLoggedIn();
   }
 
 
