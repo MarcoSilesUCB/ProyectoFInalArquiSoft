@@ -30,6 +30,7 @@ export class AppComponent {
     this.authenticationService.authStateChanged.subscribe(res => {
       this.isLoggedIn = this.authenticationService.isLoggedIn();
     });
+
   }
 
   async initFirebase() {

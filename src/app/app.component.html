@@ -6,5 +6,7 @@
   <a class="navbar-brand" routerLink="">Repuestos</a>
   <a *ngIf="!isLoggedIn" class="navbar-brand" routerLink="login">Iniciar Sesión</a>
   <a *ngIf="isLoggedIn" class="navbar-brand" (click)="logout()">Cerrar Sesión</a>
+
+  <!-- <a class="navbar-brand" routerLink="login">Iniciar Sesión</a> -->
 </nav>
 <router-outlet></router-outlet>

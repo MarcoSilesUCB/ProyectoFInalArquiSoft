@@ -19,10 +19,12 @@ export class CarsComponent implements OnInit {
   ) { }
 
   cars: Car[] = [];
-  isLoggedIn = this.authenticationService.isLoggedIn();;
+  isLoggedIn = false;
 
   async ngOnInit() {
     this.cars = await this.carService.getCars();
+    this.isLoggedIn = this.authenticationService.isLoggedIn();
+
   }
 
   async editCar(id: any) {
