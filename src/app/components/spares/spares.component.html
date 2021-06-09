@@ -1,6 +1,5 @@
-<h1>Repuestos</h1>
 <div class="container">
-    <div class="search">
+    <div class="search mt-2">
         <form class="form-horizontal" role="form">
             <div class="row">
                 <div class="col-md-5">
@@ -22,27 +21,25 @@
         <button type="button" class="btn btn-secondary mt-3" routerLink="/spares-form">Agregar</button>
 
         <div *ngFor="let spare of filteredSpares;" class="mt-3">
-            <div class="card">
-                <div class="spare-picture form-inline" style="float: left;">
-                    <h1>FOTO</h1>
-                </div>
-                <div class="spare mt-5 form-inline" style="float: left;">
-                    <h6><b>Nombre: </b>{{spare.name}}</h6>
-                    <h6><b>Marca: </b>{{spare.brand}}</h6>
-                    <h6><b>Modelo: </b>{{spare.model}}</h6>
-                    <h6><b>Precio: </b>{{spare.price}}</h6>
-
-                </div>
-                <div class="spare-buttons mb-5" style="float: left;">
-                    <div class="button-1 mb-2">
-                        <button type="button" class="btn btn-danger" (click)="editSpare(spare.id)">Editar</button>
-                    </div>
-                    <div class="button-1">
-                        <button type="button" class="btn btn-warning" (click)="deleteSpare(spare.id)">Eliminar</button>
-                    </div>
-                </div>
+            <div class="first">
+                <img src=".. /../../assets/images/radiador.png" alt="Card image cap">
             </div>
 
+            <div class="second">
+                <h6><b>Nombre: </b>{{spare.name}}</h6>
+                <h6><b>Marca: </b>{{spare.brand}}</h6>
+                <h6><b>Modelo: </b>{{spare.model}}</h6>
+                <h6><b>Precio: </b>{{spare.price}}</h6>
+
+            </div>
+            <div class="third">
+                <div class="button-1 mb-2">
+                    <button type="button" class="btn btn-warning" (click)="editSpare(spare.id)">Modificar</button>
+                </div>
+                <div class="button-1">
+                    <button type="button" class="btn btn-danger" (click)="deleteSpare(spare.id)">Quitar</button>
+                </div>
+            </div>
         </div>
+
     </div>
-</div>

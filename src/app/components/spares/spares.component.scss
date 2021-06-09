@@ -19,14 +19,13 @@
 .btn-warning, .btn-danger{
     width: 200px;
 }
-.spare-buttons{
-    
-}
 
-#wrapper{
-    
-    
-}
-.spare{
-    margin-left: 8cm;
-}
+  .first, .third {
+    width:200px;
+    border: 0px,0px,0px,0px;
+  }
+  .second {
+    width:300px;
+    border: 0px,0px,0px,0px;
+    padding: 0px,0px,0px,0px;
+  }
