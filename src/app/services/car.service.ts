@@ -28,7 +28,7 @@ export class CarService {
     const db = firebase.firestore();
     let car = await this.http.get(`${this.cloudFunctionsURL}getCar?id=${id}`, { responseType: 'json' }).toPromise();
     console.log(car);
-    this.router.navigate(["/cars-form"], { queryParams: { id } });
+    // this.router.navigate(["/cars-form"], { queryParams: { id } });
 
     // return (await db.collection("cars").doc(id).get()).data() as Car;
     return car;
