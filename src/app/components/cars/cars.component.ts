@@ -16,6 +16,7 @@ export class CarsComponent implements OnInit {
   ) { }
 
   cars: Car[] = [];
+  isLoggedIn = false;
 
   async ngOnInit() {
     this.cars = await this.carService.getCars();
