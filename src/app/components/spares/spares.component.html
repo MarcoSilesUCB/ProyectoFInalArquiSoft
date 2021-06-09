@@ -1,12 +1,36 @@
 <h1>Repuestos</h1>
+<div class="container">
+    <div class="search">
+        <h5>Buscar</h5>
 
-<li *ngFor="let spare of spares;" class="list-group-item">
-    <h6><b>Nombre: </b>{{spare.name}}</h6>
-    <h6><b>Precio: </b>{{spare.price}}</h6>
+        <form class="form-horizontal" role="form">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group form-inline">
+                        <label for="spareBrandFilter_id">Marca</label>
+                        <input type="text" class="form-control col" name="brandFilter" id="brandFilter"
+                            (ngModelChange)="filterSpare($event)" [(ngModel)]="filter.brand">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="spareModelFilter_id">Modelo</label>
+                        <input type="string" class="form-control col" name="modelFilter" id="modelFilter"
+                            (ngModelChange)="filterSpare($event)" [(ngModel)]="filter.model">
+                    </div>
+                </div>
+            </div>
+        </form>
 
-    <button type="button" class="btn btn-light" (click)="editSpare(spare.id)">Editar</button>
-    <button type="button" class="btn btn-light" (click)="deleteSpare(spare.id)">Eliminar</button>
-</li>
+        <li *ngFor="let spare of spares;" class="list-group-item">
+            <h6><b>Nombre: </b>{{spare.name}}</h6>
+            <h6><b>Precio: </b>{{spare.price}}</h6>
+
+            <button type="button" class="btn btn-light" (click)="editSpare(spare.id)">Editar</button>
+            <button type="button" class="btn btn-light" (click)="deleteSpare(spare.id)">Eliminar</button>
+        </li>
+    </div>
+</div>
 
 
 
