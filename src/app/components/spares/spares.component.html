@@ -1,29 +1,29 @@
 <h1>Repuestos</h1>
 <div class="container">
     <div class="search">
-        <h5>Buscar</h5>
-
         <form class="form-horizontal" role="form">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <div class="form-group form-inline">
                         <label for="spareBrandFilter_id">Marca</label>
                         <input type="text" class="form-control col" name="brandFilter" id="brandFilter"
-                            (ngModelChange)="filterSpare($event)" [(ngModel)]="filter.brand">
+                            (ngModelChange)="filterSpare($event)" [ngModel]="filteredSpare">
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <div class="form-group">
                         <label for="spareModelFilter_id">Modelo</label>
                         <input type="string" class="form-control col" name="modelFilter" id="modelFilter"
-                            (ngModelChange)="filterSpare($event)" [(ngModel)]="filter.model">
+                            (ngModelChange)="filterSpare($event)" [ngModel]="filteredSpare">
                     </div>
                 </div>
             </div>
         </form>
-
-        <li *ngFor="let spare of spares;" class="list-group-item">
+        <button type="button" class="btn btn-secondary mt-3" routerLink="/spares-form">Agregar</button>
+        <li *ngFor="let spare of filteredSpares;" class="list-group-item mt-3">
             <h6><b>Nombre: </b>{{spare.name}}</h6>
+            <h6><b>Marca: </b>{{spare.brand}}</h6>
+            <h6><b>Modelo: </b>{{spare.model}}</h6>
             <h6><b>Precio: </b>{{spare.price}}</h6>
 
             <button type="button" class="btn btn-light" (click)="editSpare(spare.id)">Editar</button>
@@ -31,7 +31,3 @@
         </li>
     </div>
 </div>
-
-
-
-<button type="button" class="btn btn-primary" routerLink="/spares-form">Registrar Respuesto</button>

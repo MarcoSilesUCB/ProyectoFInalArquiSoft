@@ -26,6 +26,7 @@ export class SparesComponent implements OnInit {
     this.filter = this.filterService.spareFilter;
     this.spares = await this.spareService.getSpares();
     this.filteredSpares = this.spares;
+
   }
 
   async editSpare(id: any) {
@@ -50,6 +51,20 @@ export class SparesComponent implements OnInit {
     }
 
   }
-  search(parameter: string) { }
+  search(parameter: string) {
+    const words: string[] = parameter.toString().trim().split(' ');
+    this.filteredSpares = this.filteredSpares.filter(
+      (spare: Spare) => {
+        let found = false;
+        words.forEach(word => {
+          if (spare.brand.toLowerCase().includes(word) || spare.brand.toUpperCase().includes(word) || spare.brand.includes(word)
+            || (spare.model.toLowerCase().includes(word) || spare.model.toUpperCase().includes(word) || spare.model.includes(word))) {
+            found = true;
+          }
+        });
+        return found;
+      }
+    );
+  }
 
 }
