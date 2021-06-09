@@ -30,7 +30,7 @@ export class AuthenticationService {
 
   async logout() {
     await firebase.auth().signOut();
-    this.router.navigate(["/cars-list"])
+    this.router.navigate(["/"]);
   }
 
   public isLoggedIn() {

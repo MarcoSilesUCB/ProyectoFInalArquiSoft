@@ -19,7 +19,7 @@ export class CarsComponent implements OnInit {
   ) { }
 
   cars: Car[] = [];
-  isLoggedIn = true;
+  isLoggedIn = this.authenticationService.isLoggedIn();;
 
   async ngOnInit() {
     this.cars = await this.carService.getCars();
@@ -38,9 +38,7 @@ export class CarsComponent implements OnInit {
     this.router.navigateByUrl(`vehicles-detail/${car.id}`);
 
   }
-  async loggedIn() {
-    this.isLoggedIn = await this.authenticationService.isLoggedIn();
-  }
+
 
 
 
