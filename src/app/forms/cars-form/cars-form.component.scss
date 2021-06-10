@@ -1,0 +1,45 @@
+input{
+    background-color: #929292;
+}
+
+.form-row, .row{
+    margin: 0px
+}
+
+.title{
+    background-color: #7CC27A;
+
+}
+
+label{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn-agregar{
+    height: 50px;
+    background-color: #7CC27A;
+    width: 60%;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.btn-img{
+    width: 250px;
+    height: 250px;
+    
+}
+
+.div-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cancelar{
+    background-color: black;
+    color: #7CC27A;
+    border: 0px;
+    float: right;
+}
