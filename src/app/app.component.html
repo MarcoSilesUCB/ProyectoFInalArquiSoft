@@ -3,10 +3,8 @@
     <img src="../assets/images/logo.png" style="max-width: 220px; " alt="">
   </a>
   <a class="navbar-brand" routerLink="cars-list">Autos</a>
-  <a class="navbar-brand" routerLink="">Repuestos</a>
+  <a class="navbar-brand" routerLink="spares-list">Repuestos</a>
   <a *ngIf="!isLoggedIn" class="navbar-brand" routerLink="login">Iniciar Sesión</a>
   <a *ngIf="isLoggedIn" class="navbar-brand" (click)="logout()">Cerrar Sesión</a>
-
-  <!-- <a class="navbar-brand" routerLink="login">Iniciar Sesión</a> -->
 </nav>
 <router-outlet></router-outlet>
