@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Spare } from '../../models/spare.model'
 import { SpareService } from '../../services/spare.service';
 import { Router } from '@angular/router';
-import { FilterService } from '../../services/filter.service'
+import { FilterService } from '../../services/filter.service';
+import { AuthenticationService } from '../../services/authentication.service';
 
 @Component({
   selector: 'app-spares',
@@ -15,14 +16,17 @@ export class SparesComponent implements OnInit {
     public router: Router,
     public spareService: SpareService,
     public filterService: FilterService,
+    public authenticationService: AuthenticationService
   ) { }
 
   spares: Spare[] = [];
   filteredSpares: any = [];
   filter: any = {};
   filteredSpare = "";
+  isLoggedIn = false;
 
   async ngOnInit() {
+    this.isLoggedIn = this.authenticationService.isLoggedIn();
     this.filter = this.filterService.spareFilter;
     this.spares = await this.spareService.getSpares();
     this.filteredSpares = this.spares;
@@ -37,6 +41,10 @@ export class SparesComponent implements OnInit {
     this.spares = await this.spareService.getSpares();
 
   }
+  openSpare(spare: Spare) {
+    this.router.navigateByUrl(`spares-detail/${spare.id}`);
+  }
+
   filterSpare(event: any = '') {
     this.filteredSpares = this.spares.filter((spare: Spare) => {
 

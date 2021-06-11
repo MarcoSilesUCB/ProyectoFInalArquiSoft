@@ -27,8 +27,6 @@ export class SpareService {
     const db = firebase.firestore();
     let spare = await this.http.get(`${this.cloudFunctionsURL}getSpare?id=${id}`, { responseType: 'json' }).toPromise();
     console.log(spare);
-    this.router.navigate(["/spares-form"], { queryParams: { id } });
-
 
     return spare;
   }

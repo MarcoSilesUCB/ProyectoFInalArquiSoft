@@ -11,6 +11,7 @@ import { SparesComponent } from './components/spares/spares.component';
 import { SparesFormComponent } from './forms/spares-form/spares-form.component';
 import { DetailVehicleComponent } from './components/detail-vehicle/detail-vehicle.component';
 import { LoginComponent } from './components/login/login.component';
+import { DetailSpareComponent } from './components/detail-spare/detail-spare.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LoginComponent } from './components/login/login.component';
     SparesComponent,
     SparesFormComponent,
     DetailVehicleComponent,
-    LoginComponent
+    LoginComponent,
+    DetailSpareComponent
   ],
   imports: [
     BrowserModule,
