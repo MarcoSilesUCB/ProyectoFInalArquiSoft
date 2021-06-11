@@ -4,6 +4,7 @@ import "firebase/firestore";
 import { CarService } from './services/car.service';
 import { Car } from '../app/models/car.model';
 import { Router } from '@angular/router';
+import { AuthenticationService } from './services/authentication.service';
 
 @Component({
   selector: 'app-root',
@@ -12,10 +13,12 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'concessionaire';
+  isLoggedIn = false;
 
   constructor(
     public router: Router,
-    public carsService: CarService
+    public carsService: CarService,
+    private authenticationService: AuthenticationService,
   ) { }
 
   car: Car = new Car();
@@ -23,6 +26,11 @@ export class AppComponent {
 
   async ngOnInit() {
     await this.initFirebase();
+    this.authenticationService.initializeListener();
+    this.authenticationService.authStateChanged.subscribe(res => {
+      this.isLoggedIn = this.authenticationService.isLoggedIn();
+    });
+
   }
 
   async initFirebase() {
@@ -37,6 +45,10 @@ export class AppComponent {
     };
     // Initialize Firebase
     await firebase.initializeApp(firebaseConfig);
+
+  }
+  logout() {
+    return this.authenticationService.logout();
 
   }
 
