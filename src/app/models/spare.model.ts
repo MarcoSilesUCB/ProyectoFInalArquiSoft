@@ -4,4 +4,5 @@ export class Spare {
     price: number = 0;
     brand: string = "";
     model: string = "";
+    amount: string = "";
 }
