@@ -5,7 +5,6 @@ import { CarsFormComponent } from './forms/cars-form/cars-form.component';
 import { SparesComponent } from './components/spares/spares.component';
 import { SparesFormComponent } from './forms/spares-form/spares-form.component';
 import { DetailVehicleComponent } from './components/detail-vehicle/detail-vehicle.component';
-import { DetailSpareComponent } from './components/detail-spare/detail-spare.component';
 import { LoginComponent } from './components/login/login.component';
 const routes: Routes = [
   {
@@ -27,10 +26,6 @@ const routes: Routes = [
   {
     path: "vehicles-detail/:id",
     component: DetailVehicleComponent
-  },
-  {
-    path: "spares-detail/:id",
-    component: DetailSpareComponent
   },
   {
     path: "login",

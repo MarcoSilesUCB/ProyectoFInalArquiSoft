@@ -41,9 +41,6 @@ export class SparesComponent implements OnInit {
     this.spares = await this.spareService.getSpares();
 
   }
-  openSpare(spare: Spare) {
-    this.router.navigateByUrl(`spares-detail/${spare.id}`);
-  }
 
   filterSpare(event: any = '') {
     this.filteredSpares = this.spares.filter((spare: Spare) => {
