@@ -33,7 +33,7 @@ export class CarsComponent implements OnInit {
   }
   async deleteCar(id: any) {
     await this.carService.deleteCar(id);
-    this.cars = await this.carService.getCars();
+    this.ngOnInit();
 
   }
   openCar(car: Car) {
