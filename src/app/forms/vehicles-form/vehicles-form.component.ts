@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Car } from '../../models/car.model'
+import { Vehicle } from '../../models/vehicle.model'
 import { CarService } from '../../services/car.service';
 import { Location } from '@angular/common';
 
 @Component({
-  selector: 'app-cars-form',
-  templateUrl: './cars-form.component.html',
-  styleUrls: ['./cars-form.component.scss']
+  selector: 'app-vehicles-form',
+  templateUrl: './vehicles-form.component.html',
+  styleUrls: ['./vehicles-form.component.scss']
 })
-export class CarsFormComponent implements OnInit {
+export class VehiclesFormComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
@@ -19,7 +20,7 @@ export class CarsFormComponent implements OnInit {
   ) { }
 
   isNew: boolean = true;
-  car: Car | any = new Car();
+  vehicle: Vehicle | any = new Vehicle();
 
   async ngOnInit() {
     this.route.queryParams.subscribe(async params => {
@@ -33,17 +34,17 @@ export class CarsFormComponent implements OnInit {
 
     console.log("new ", this.isNew);
     if (!this.isNew) {
-      this.car = await this.carsService.getCar(id);
+      this.vehicle = await this.carsService.getVehicle(id);
     }
   }
 
-  async createCar(car: Car) {
-    await this.carsService.createCar(car);
+  async createVehicle(vehicle: Vehicle) {
+    await this.carsService.createVehicle(vehicle);
     this._location.back();
 
   }
-  async editCar(car: Car) {
-    await this.carsService.editCar(car);
+  async editVehicle(vehicle: Vehicle) {
+    await this.carsService.editVehicle(vehicle);
     this._location.back();
 
   }

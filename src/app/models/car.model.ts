@@ -1,9 +1,7 @@
-export class Car {
-    id: string = "";
-    color: string = "";
-    model: string = "";
-    brand: string = "";
-    price: string = "";
-    fuelType: string = "";
-    amount: string = "";
+import { Vehicle } from './vehicle.model';
+export class Car extends Vehicle {
+    category: string = "";
+    displacement: string = "";
+    seats: string = "";
+
 }

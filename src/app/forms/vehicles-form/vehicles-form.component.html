@@ -1,0 +1,30 @@
+<h1 *ngIf="isNew">Agregar Auto</h1>
+<h1 *ngIf="!isNew">Editar Auto</h1>
+<form>
+    <div class="form-group">
+        <label for="vehicleBrand">Marca</label>
+        <input type="text" class="form-control" id="vehicleBrnad-id" name="vehicleBrnad-id" [(ngModel)]="vehicle.brand">
+    </div>
+    <div class="form-group">
+        <label for="vehicleColor">Color</label>
+        <input type="text" class="form-control" id="color-id" name="color-id" [(ngModel)]="vehicle.color">
+    </div>
+    <div class="form-group">
+        <label for="vehiclePrice">Precio</label>
+        <input type="text" class="form-control" id="price-id" name="price-id" [(ngModel)]="vehicle.price">
+    </div>
+    <div class="form-group">
+        <label for="vehicleModel">Modelo</label>
+        <input type="text" class="form-control" id="model-id" name="model-id" [(ngModel)]="vehicle.model">
+    </div>
+    <div class="form-group">
+        <label for="vehicleAmount">Cantidad</label>
+        <input type="number" class="form-control" id="amount-id" name="amount-id" [(ngModel)]="vehicle.amount">
+    </div>
+    <div class="form-group">
+        <label for="vehicleFuel">Tipo de combustible</label>
+        <input type="text" class="form-control" id="fuelType-id" name="fuelType-id" [(ngModel)]="vehicle.fuelType">
+    </div>
+    <button *ngIf="isNew" type="button" class="btn btn-light" (click)="createVehicle(vehicle)">Agregar</button>
+    <button *ngIf="!isNew" type="button" class="btn btn-light" (click)="editVehicle(vehicle)">Confirmar</button>
+</form>

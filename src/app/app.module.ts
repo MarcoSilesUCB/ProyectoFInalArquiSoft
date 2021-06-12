@@ -5,22 +5,22 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { CarsComponent } from './components/cars/cars.component';
-import { CarsFormComponent } from './forms/cars-form/cars-form.component';
+import { VehiclesFormComponent } from './forms/vehicles-form/vehicles-form.component';
 import { SparesComponent } from './components/spares/spares.component';
 import { SparesFormComponent } from './forms/spares-form/spares-form.component';
 import { DetailVehicleComponent } from './components/detail-vehicle/detail-vehicle.component';
 import { LoginComponent } from './components/login/login.component';
+import { VehiclesComponent } from './components/vehicles/vehicles.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CarsComponent,
-    CarsFormComponent,
     SparesComponent,
     SparesFormComponent,
+    VehiclesFormComponent,
     DetailVehicleComponent,
-    LoginComponent
+    LoginComponent,
+    VehiclesComponent
   ],
   imports: [
     BrowserModule,
