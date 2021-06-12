@@ -22,11 +22,16 @@ export class VehiclesComponent implements OnInit {
 
   vehicles: Vehicle[] = [];
   isLoggedIn = false;
+  isCar = false;
+  isMotorcycle = false;
 
 
   async ngOnInit() {
     this.vehicles = await this.carService.getVehicles();
     this.isLoggedIn = this.authenticationService.isLoggedIn();
+
+    this.isCar = false;
+    this.isMotorcycle = false;
 
   }
 
@@ -41,8 +46,6 @@ export class VehiclesComponent implements OnInit {
   }
   openCar(vehicle: Vehicle) {
     this.router.navigateByUrl(`vehicles-detail/${vehicle.id}`);
-
-
-
   }
+
 }

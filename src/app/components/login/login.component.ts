@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit {
     this.isLogged = await this.authenticationService.isLoggedIn();
 
     if (this.isLogged) {
-      this.router.navigate(["/cars-list"]);
+      this.router.navigate(["/vehicles-list"]);
     }
   }
 
