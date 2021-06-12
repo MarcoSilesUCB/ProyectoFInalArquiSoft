@@ -7,12 +7,12 @@
         <label for="vehicleType">Tipo</label>
         <select class="form-control" id="vehicleType-id" name="vehicletype-id" [(ngModel)]="vehicle.type">
             <option selected value='car'> Auto</option>
-            <option selected value='motorcyle'>Moto</option>
+            <option selected value='motorcycle'>Moto</option>
         </select>
     </div>
     <div class="form-group">
         <label for="vehicleBrand">Marca</label>
-        <input type="text" class="form-control" id="vehicleBrnad-id" name="vehicleBrnad-id" [(ngModel)]="vehicle.brand">
+        <input type="text" class="form-control" id="vehicleBrand-id" name="vehicleBrand-id" [(ngModel)]="vehicle.brand">
     </div>
     <div class="form-group">
         <label for="vehicleColor">Color</label>
@@ -51,7 +51,7 @@
 
 
 
-    <div *ngIf='vehicle.type == "motorcyle"' class="form-group">
+    <div *ngIf='vehicle.type == "motorcycle"' class="form-group">
         <label for="vehicleTransmission">Transmisión </label>
         <input type="text" class="form-control" id="transmission-id" name="transmission-id"
             [(ngModel)]="vehicle.transmission">

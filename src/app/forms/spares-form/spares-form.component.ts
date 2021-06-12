@@ -32,7 +32,6 @@ export class SparesFormComponent implements OnInit {
   }
   async init(id: any) {
 
-    console.log("new ", this.isNew);
     if (!this.isNew) {
       this.spare = await this.spareService.getSpare(id);
     }

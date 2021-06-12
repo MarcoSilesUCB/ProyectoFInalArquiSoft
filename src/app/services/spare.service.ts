@@ -20,35 +20,35 @@ export class SpareService {
   async getSpares() {
     const spares = await this.http.get(`${this.cloudFunctionsURL}getSpares`, { responseType: 'json' }).toPromise();
     this.spares = Object.values(spares); // objeto a array 
-    console.log(this.spares);
+
     return this.spares;
   }
   async getSpare(id: any) {
     const db = firebase.firestore();
     let spare = await this.http.get(`${this.cloudFunctionsURL}getSpare?id=${id}`, { responseType: 'json' }).toPromise();
-    console.log(spare);
+
 
     return spare;
   }
   async deleteSpare(id: any) {
     const spare = await this.http.get(`${this.cloudFunctionsURL}deleteSpare?id=${id}`, { responseType: 'blob' }).toPromise();
-    console.log(spare);
+
   }
   async createSpare(spare: Spare) {
 
-    console.log(spare);
+
 
     let params = new HttpParams();
     params = params.append('spare', JSON.stringify(spare));
 
 
     await this.http.get(`${this.cloudFunctionsURL}createSpare`, { responseType: 'blob', params: params }).toPromise();
-    console.log(spare);
+
 
   }
   async editSpare(spare: Spare) {
 
-    console.log(spare);
+
 
     let params = new HttpParams();
     params = params.append('spare', JSON.stringify(spare));
@@ -56,7 +56,7 @@ export class SpareService {
 
     await this.http.get(`${this.cloudFunctionsURL}editSpare?id=${spare.id}`, { responseType: 'blob', params: params }).toPromise();
 
-    console.log(spare);
+
 
   }
 }

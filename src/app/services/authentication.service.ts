@@ -34,9 +34,7 @@ export class AuthenticationService {
   }
 
   public isLoggedIn() {
-
     const user = firebase.auth().currentUser;
-    console.log((Boolean(user)));
     return (Boolean(user));
   }
 }

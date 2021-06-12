@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { VehicleService } from '../../services/vehicle.service';
 import { Car } from '../../models/car.model';
-import { CarService } from '../../services/car.service'
+import { Motorcycle } from '../../models/motorcycle.model';
 
 @Component({
   selector: 'app-detail-vehicle',
@@ -11,19 +12,19 @@ import { CarService } from '../../services/car.service'
 export class DetailVehicleComponent implements OnInit {
 
   id: string = '';
-  car: Car | any = new Car();
+  vehicle: any;
 
   constructor(
     public router: Router,
     private route: ActivatedRoute,
-    public carService: CarService
+    public vehicleService: VehicleService
 
   ) { }
 
   async ngOnInit(): Promise<void> {
     this.route.paramMap.subscribe(async params => {
       this.id = params.get('id') as string;
-      this.car = await this.carService.getCar(this.id);
+      this.vehicle = await this.vehicleService.getVehicle(this.id);
     });
   }
 

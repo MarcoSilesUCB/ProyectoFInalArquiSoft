@@ -1,21 +1,33 @@
 <div class="container">
-    <h1>Vehicle Detail</h1>
     <div class="card">
         <div class="wrapper row">
             <div class="preview col-md-6">
                 <div class="tab-content">
                     <div class="tab-pane active" id="pic-1">
-                        <img
-                            src="https://st.motortrend.com/uploads/sites/5/2017/03/2017-Mazda-CX-5-front-three-quarter-in-motion-1-e1489186309647.jpg" />
+                        <img *ngIf="vehicle.type =='car'" class="card-img-body" src="../../../assets/images/suzuki1.png"
+                            alt="Card image cap">
+                        <img *ngIf="vehicle.type =='motorcycle'" class="card-img-body"
+                            src="../../../assets/images/motonegra.png" alt="Card image cap">
                     </div>
+
                 </div>
             </div>
             <div class="details col-md-6">
-                <h1 class="product-title">{{car.brand}}</h1>
-                <h4><b>Precio: </b>{{car.price}} $</h4>
-                <h4><b>Modelo: </b>{{car.model}}</h4>
-                <h4><b>Tipo de combustible: </b>{{car.fuelType}}</h4>
-                <h4><b>Cantidad: </b>{{car.amount}}</h4>
+                <h1 class="product-title">{{vehicle.brand}}</h1>
+                <h4><b>Precio: </b>{{vehicle.price}} $</h4>
+                <h4><b>Modelo: </b>{{vehicle.model}}</h4>
+                <h4><b>Tipo de combustible: </b>{{vehicle.fuelType}}</h4>
+                <h4><b>Cantidad: </b>{{vehicle.amount}}</h4>
+                <h4><b>Color: </b>{{vehicle.color}}</h4>
+                <div *ngIf='vehicle.type=="car"' class="car-info">
+                    <h4><b>Cantidad: </b>{{vehicle.amount}}</h4>
+                    <h4><b>Categoría: </b>{{vehicle.category}}</h4>
+                    <h4><b>Cilindrada: </b>{{vehicle.displacement}}</h4>
+                </div>
+
+                <div *ngIf='vehicle.type=="motorcycle"' class="motorcycle-info">
+                    <h4><b>Transmisión: </b>{{vehicle.transmission}}</h4>
+                </div>
             </div>
         </div>
     </div>

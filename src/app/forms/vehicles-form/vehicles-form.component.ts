@@ -28,8 +28,6 @@ export class VehiclesFormComponent implements OnInit {
     })
   }
   async init(id: any) {
-
-    console.log("new ", this.isNew);
     if (!this.isNew) {
       this.vehicle = await this.vehicleService.getVehicle(id);
     }
