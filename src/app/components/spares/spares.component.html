@@ -47,7 +47,7 @@
                     (click)="deleteSpare(spare.id)">Quitar</button>
             </div>
             <div class="">
-                <button type="button" class="btn btn-warning btn-success mt-1" (click)="verSpare(spare.id)">Ver</button>
+                <button *ngIf="!isLoggedIn" type="button" class="btn btn-success mt-1" (click)="verSpare(spare.id)">Ver</button>
             </div>
         </div>
 
