@@ -23,7 +23,7 @@ export class DetailVehicleComponent implements OnInit {
   async ngOnInit(): Promise<void> {
     this.route.paramMap.subscribe(async params => {
       this.id = params.get('id') as string;
-      this.car = await this.carService.getCar(this.id);
+      this.car = await this.carService.getVehicle(this.id);
     });
   }
 

@@ -31,6 +31,7 @@ export class SparesComponent implements OnInit {
 
   async editSpare(id: any) {
     await this.spareService.getSpare(id);
+    this.router.navigate(["/spares-form"], { queryParams: { id } });
   }
   async deleteSpare(id: any) {
     await this.spareService.deleteSpare(id);

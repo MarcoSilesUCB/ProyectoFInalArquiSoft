@@ -2,27 +2,27 @@
     <div class="main-picture mt-2">
         <img src="../../../assets/images/promo.png" alt="">
     </div>
-    <button type="button" class="btn btn-secondary mt-3" routerLink="/cars-form">Agregar</button>
+    <button type="button" class="btn btn-secondary mt-3" routerLink="/vehicles-form">Agregar</button>
     <div class="row col-12 mt-4">
-        <div class="card col-6" style="width: 21rem;" *ngFor="let car of cars">
+        <div class="card col-6" style="width: 21rem;" *ngFor="let vehicle of vehicles">
             <div class="card-image-body">
                 <img class="card-img-body" src="../../../assets/images/suzuki1.png" alt="Card image cap">
             </div>
             <div class="card-body">
-                <p class="card-text"><strong>Marca: </strong>{{car.brand}}</p>
-                <p class="card-text"><strong>Color: </strong>{{car.color}}</p>
+                <p class="card-text"><strong>Marca: </strong>{{vehicle.brand}}</p>
+                <p class="card-text"><strong>Color: </strong>{{vehicle.color}}</p>
             </div>
             <div class="card-footer">
                 <div class="button-1 mb-2">
                     <button *ngIf="isLoggedIn" type="button" class="btn btn-warning"
-                        (click)="editCar(car.id)">Modificar</button>
+                        (click)="editCar(vehicle.id)">Modificar</button>
                 </div>
                 <div class="button-1 mb-2">
                     <button *ngIf="isLoggedIn" type="button" class="btn btn-danger"
-                        (click)="deleteCar(car.id)">Quitar</button>
+                        (click)="deleteCar(vehicle.id)">Quitar</button>
                 </div>
                 <div class="button-1">
-                    <button *ngIf="!isLoggedIn" type="button" class="btn btn-success" (click)="openCar(car)">Ver
+                    <button *ngIf="!isLoggedIn" type="button" class="btn btn-success" (click)="openCar(vehicle)">Ver
                         Más</button>
                 </div>
             </div>
