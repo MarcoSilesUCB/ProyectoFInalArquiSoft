@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CarsComponent } from './components/cars/cars.component';
-import { CarsFormComponent } from './forms/cars-form/cars-form.component';
+import { VehiclesComponent } from './components/vehicles/vehicles.component';
+import { VehiclesFormComponent } from './forms/vehicles-form/vehicles-form.component';
 import { SparesComponent } from './components/spares/spares.component';
 import { SparesFormComponent } from './forms/spares-form/spares-form.component';
 import { DetailVehicleComponent } from './components/detail-vehicle/detail-vehicle.component';
@@ -9,12 +9,12 @@ import { DetailSpareComponent } from './components/detail-spare/detail-spare.com
 import { LoginComponent } from './components/login/login.component';
 const routes: Routes = [
   {
-    path: "cars-list",
-    component: CarsComponent
+    path: "vehicles-list",
+    component: VehiclesComponent
   },
   {
-    path: "cars-form",
-    component: CarsFormComponent
+    path: "vehicles-form",
+    component: VehiclesFormComponent
   },
   {
     path: "spares-list",
@@ -38,7 +38,7 @@ const routes: Routes = [
   },
   {
     path: "",
-    component: CarsComponent
+    component: VehiclesComponent
   }
 ];
 

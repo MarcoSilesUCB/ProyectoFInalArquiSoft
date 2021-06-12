@@ -1,4 +1,4 @@
-export class Car {
+export class Motorcycle {
     id: string = "";
     color: string = "";
     model: string = "";
@@ -7,7 +7,5 @@ export class Car {
     fuelType: string = "";
     amount: string = "";
     type: string = "";
-    category: string = "";
-    displacement: number = 0;
-    seating: number = 0;
+    transmission: string = "";
 }

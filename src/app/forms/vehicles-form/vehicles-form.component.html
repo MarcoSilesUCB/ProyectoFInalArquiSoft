@@ -1,0 +1,64 @@
+<h1 *ngIf="isNew">Agregar Vehículo</h1>
+<h1 *ngIf="!isNew">Editar Vehículo</h1>
+
+
+<form>
+    <div class="form-group">
+        <label for="vehicleType">Tipo</label>
+        <select class="form-control" id="vehicleType-id" name="vehicletype-id" [(ngModel)]="vehicle.type">
+            <option selected value='car'> Auto</option>
+            <option selected value='motorcyle'>Moto</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="vehicleBrand">Marca</label>
+        <input type="text" class="form-control" id="vehicleBrnad-id" name="vehicleBrnad-id" [(ngModel)]="vehicle.brand">
+    </div>
+    <div class="form-group">
+        <label for="vehicleColor">Color</label>
+        <input type="text" class="form-control" id="color-id" name="color-id" [(ngModel)]="vehicle.color">
+    </div>
+    <div class="form-group">
+        <label for="vehiclePrice">Precio</label>
+        <input type="text" class="form-control" id="price-id" name="price-id" [(ngModel)]="vehicle.price">
+    </div>
+    <div class="form-group">
+        <label for="vehicleModel">Modelo</label>
+        <input type="text" class="form-control" id="model-id" name="model-id" [(ngModel)]="vehicle.model">
+    </div>
+    <div class="form-group">
+        <label for="vehicleAmount">Cantidad</label>
+        <input type="number" class="form-control" id="amount-id" name="amount-id" [(ngModel)]="vehicle.amount">
+    </div>
+    <div class="form-group">
+        <label for="vehicleFuel">Tipo de combustible</label>
+        <input type="text" class="form-control" id="fuelType-id" name="fuelType-id" [(ngModel)]="vehicle.fuelType">
+    </div>
+
+
+    <div *ngIf='vehicle.type == "car"' class="form-group">
+        <label for="vehicleCategory">Categoría</label>
+        <input type="text" class="form-control" id="category-id" name="category-id" [(ngModel)]="vehicle.category">
+    </div>
+    <div *ngIf='vehicle.type == "car"' class="form-group">
+        <label for="vehicleDisplacement">Cilindrada</label>
+        <input type="text" class="form-control" id="fuelType-id" name="fuelType-id" [(ngModel)]="vehicle.displacement">
+    </div>
+    <div *ngIf='vehicle.type == "car"' class="form-group">
+        <label for="vehicleSeating">Asientos</label>
+        <input type="text" class="form-control" id="seating-id" name="seating-id" [(ngModel)]="vehicle.seating">
+    </div>
+
+
+
+    <div *ngIf='vehicle.type == "motorcyle"' class="form-group">
+        <label for="vehicleTransmission">Transmisión </label>
+        <input type="text" class="form-control" id="transmission-id" name="transmission-id"
+            [(ngModel)]="vehicle.transmission">
+    </div>
+
+
+
+    <button *ngIf="isNew" type="button" class="btn btn-light" (click)="createVehicle(vehicle)">Agregar</button>
+    <button *ngIf="!isNew" type="button" class="btn btn-light" (click)="editVehicle(vehicle)">Confirmar</button>
+</form>

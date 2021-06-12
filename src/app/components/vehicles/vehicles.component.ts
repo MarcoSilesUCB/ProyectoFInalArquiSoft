@@ -40,9 +40,4 @@ export class VehiclesComponent implements OnInit {
 
   }
 
-
-
-
-
-
 }
