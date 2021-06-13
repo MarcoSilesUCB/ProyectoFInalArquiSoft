@@ -4,7 +4,7 @@
             <button *ngIf="isNew" type="button" class="btn btn-light float-right btn-cancelar" routerLink="/vehicles-list">X</button>
         </h2>
         <h1 *ngIf="!isNew" class="p-2">EDITAR VEHICULO
-            <button *ngIf="isNew" type="button" class="btn btn-light float-right btn-cancelar" routerLink="/vehicles-list">X</button>
+            <button *ngIf="!isNew" type="button" class="btn btn-light float-right btn-cancelar" routerLink="/vehicles-list">X</button>
         </h1>
     </div>
 
@@ -19,6 +19,7 @@
                 <label class="col-md-3" for="vehicleType">Tipo</label>
                 <div class="col-md-8">
                     <select class="form-control" id="vehicleType-id" name="vehicletype-id" [(ngModel)]="vehicle.type">
+                        <option selected disabled value=''> Seleccionar Tipo de Vehiculo</option>
                         <option selected value='car'> Auto</option>
                         <option selected value='motorcycle'>Moto</option>
                     </select>
