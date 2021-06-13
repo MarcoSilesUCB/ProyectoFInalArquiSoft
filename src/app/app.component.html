@@ -2,7 +2,7 @@
   <a class="logo" routerLink=''>
     <img src="../assets/images/logo.png" style="max-width: 220px; " alt="">
   </a>
-  <a class="navbar-brand" routerLink="vehicles-list">Veículos</a>
+  <a class="navbar-brand" routerLink="vehicles-list">Vehículos</a>
   <a class="navbar-brand" routerLink="spares-list">Repuestos</a>
   <a *ngIf="!isLoggedIn" class="navbar-brand" routerLink="login">Iniciar Sesión</a>
   <a *ngIf="isLoggedIn" class="navbar-brand" (click)="logout()">Cerrar Sesión</a>
