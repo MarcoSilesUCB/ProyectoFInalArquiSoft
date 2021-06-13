@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { CarsFormComponent } from './forms/cars-form/cars-form.component';
 import { SparesComponent } from './components/spares/spares.component';
 import { SparesFormComponent } from './forms/spares-form/spares-form.component';
 import { DetailVehicleComponent } from './components/detail-vehicle/detail-vehicle.component';
@@ -18,7 +17,6 @@ import { VehiclesFormComponent } from './forms/vehicles-form/vehicles-form.compo
 @NgModule({
   declarations: [
     AppComponent,
-    CarsFormComponent,
     SparesComponent,
     SparesFormComponent,
     DetailVehicleComponent,
