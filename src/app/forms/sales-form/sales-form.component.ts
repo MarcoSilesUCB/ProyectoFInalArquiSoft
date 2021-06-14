@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Sale} from '../../models/sale.model'
+import { Sale } from '../../models/sale.model'
 import { SaleService } from '../../services/sale.service';
 import * as moment from 'moment';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -32,21 +32,24 @@ export class SalesFormComponent implements OnInit {
       const id = params["id"];
       const idVehicleUrl = params["auxIdVehicle"];
       this.sale.idItem = idVehicleUrl;
-      this.isNew = (id == undefined || id=="");
+      this.isNew = (id == undefined || id == "");
       await this.init(id);
     })
   }
 
-  onSubmit(){
-   this.saleService.createSale(this.sale).subscribe(s =>{this.sale=s});
-   this._location.back(); 
+  onSubmit() {
+    this.saleService.createSale(this.sale).subscribe(s => { this.sale = s });
+    this.backClick();
   }
 
   async init(id: any) {
     this.vehicle = await this.vehicleService.getVehicle(this.sale.idItem);
     if (!this.isNew) {
-      this.saleService.getSale(id).subscribe(s =>{this.sale=s});
+      this.saleService.getSale(id).subscribe(s => { this.sale = s });
     }
+  }
+  backClick() {
+    this._location.back();
   }
 
 }

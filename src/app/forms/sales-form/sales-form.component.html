@@ -1,7 +1,7 @@
 <div class="container">
     <div class="title text-center mt-2">
-        <h2  class="p-2" >COMPRAR VEHICULO         
-            <button  type="button" class="btn btn-light float-right btn-cancelar" routerLink="/vehicles-list">X</button>
+        <h2 class="p-2">COMPRAR VEHICULO
+            <button type="button" class="btn btn-light float-right btn-cancelar" routerLink="/vehicles-list">X</button>
         </h2>
     </div>
 
@@ -10,55 +10,58 @@
             <img class="btn btn-img" src="https://static.thenounproject.com/png/396915-200.png" alt="">
         </div>
 
-        <div class="row col-md-7"> 
-            
+        <div class="row col-md-7">
+
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="vehicleType">Marca</label>
                 <div class="col-md-8">
                     <label>{{vehicle.brand}}</label>
-                </div>    
+                </div>
             </div>
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="vehicleType">Tipo</label>
                 <div class="col-md-8">
                     <label>{{vehicle.type}}</label>
-                </div>    
+                </div>
             </div>
 
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="vehicleAmount">Nombre de Comprador</label>
                 <div class="col-md-8">
-                    <input type="text" class="form-control" id="nameBuyer-id" name="nameBuyer-id" [(ngModel)]="sale.nameBuyer">
+                    <input type="text" class="form-control" id="nameBuyer-id" name="nameBuyer-id"
+                        [(ngModel)]="sale.nameBuyer">
                 </div>
             </div>
 
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="vehicleAmount">Cantidad</label>
                 <div class="col-md-8">
-                    <input type="number" class="form-control" id="saleAmount-id" name="saleAmount-id" [(ngModel)]="sale.amount">
+                    <input type="number" class="form-control" id="saleAmount-id" name="saleAmount-id"
+                        [(ngModel)]="sale.amount">
                 </div>
             </div>
 
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="totalSale">Precio total</label>
                 <div class="col-md-8">
-                    <input type="number" class="form-control" id="totalSale-id" name="totalSale-id" [(ngModel)]="sale.totalSale">
+                    <input type="number" class="form-control" id="totalSale-id" name="totalSale-id"
+                        [(ngModel)]="sale.totalSale">
                 </div>
             </div>
 
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="vehiclePrice">Fecha de venta</label>
                 <div class="col-md-8">
-                    <input type="text" class="form-control" id="dateSale-id" name="dateSale-id" [(ngModel)]="sale.dateSale">
+                    <input type="text" class="form-control" id="dateSale-id" name="dateSale-id"
+                        [(ngModel)]="sale.dateSale">
                 </div>
             </div>
         </div>
-      
+
         <div class="text-center mt-3">
-            <button  type="button" class="btn btn-light btn-agregar" (click)="onSubmit()">Comprar Ahora</button>
-            <button  type="button" class="btn btn-light btn-agregar" routerLink="vehicles-list">Cancelar</button>
+            <button type="button" class="btn btn-light btn-agregar" (click)="onSubmit()">Comprar Ahora</button>
+            <button type="button" class="btn btn-light btn-agregar" (click)="backClick()">Cancelar</button>
         </div>
 
     </form>
 </div>
-    
