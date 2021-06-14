@@ -1,4 +1,4 @@
-﻿using BackendConcesionaria.DataSale.Entities;
+using BackendConcesionaria.DataSale.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +10,8 @@ namespace BackendConcesionaria.DataSale.Repository
     {
         private List<saleEntity> saleItems = new List<saleEntity>
         {
-            new saleEntity() { idSale = 1, idItem = 1, nameBuyer = "Ricardo", amount = 2, totalSale = 350, dateSale = "13-06-2021" },
-            new saleEntity() { idSale = 2, idItem = 2, nameBuyer = "Antonio", amount = 4, totalSale = 550, dateSale = "14-06-2021" },
+            new saleEntity() { idSale = 1, idItem = "124B", nameBuyer = "Ricardo", amount = 2, totalSale = 350, dateSale = "13-06-2021" },
+            new saleEntity() { idSale = 2, idItem = "124B", nameBuyer = "Antonio", amount = 4, totalSale = 550, dateSale = "14-06-2021" },
         };
         public saleEntity createSale(saleEntity sale)
         {

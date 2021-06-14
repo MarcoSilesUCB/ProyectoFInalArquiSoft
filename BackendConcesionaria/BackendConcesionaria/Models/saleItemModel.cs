@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -11,7 +11,7 @@ namespace BackendConcesionaria.Models
     {
         public int idSale { get; set; }
         [Required]
-        public int idItem { get; set; }
+        public string idItem { get; set; }
         public string nameBuyer { get; set; }
         public int amount { get; set; }
         public int totalSale { get; set; }

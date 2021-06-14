@@ -46,6 +46,7 @@ namespace BackendConcesionaria
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseCors(options => { options.AllowAnyOrigin(); options.AllowAnyMethod(); options.AllowAnyHeader(); });
             }
 
             app.UseRouting();
@@ -54,8 +55,8 @@ namespace BackendConcesionaria
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+              endpoints.MapControllers();
             });
-        }
+    }
     }
 }

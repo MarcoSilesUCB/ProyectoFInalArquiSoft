@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Sale } from 'src/app/models/sale.model';
+import { SaleService } from 'src/app/services/sale.service';
+import { VehicleService } from 'src/app/services/vehicle.service';
 
 @Component({
   selector: 'app-sale',
@@ -7,9 +11,34 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SaleComponent implements OnInit {
 
-  constructor() { }
+  sale: Sale = new Sale();
+  id: string = '';
+  vehicle:any={
+    id:'' 
+  }; 
 
-  ngOnInit(): void {
+  constructor(
+    public router: Router,
+    private route: ActivatedRoute,
+    public saleService: SaleService,
+    public vehicleService: VehicleService,
+  ) { }
+
+  async ngOnInit() {
+    this.route.paramMap.subscribe(async params => {
+      this.id = params.get('id') as string;
+      this.saleService.getSale(this.id).subscribe(sale=>{this.sale=sale});
+      this.vehicle = await this.vehicleService.getVehicle(this.sale.idItem);
+      
+    });
+
   }
+
+  async deleteSale(sale: Sale) {
+    
+    this.saleService.deleteSale(sale);
+    this.router.navigateByUrl('/sales');
+  }
+
 
 }

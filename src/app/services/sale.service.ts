@@ -21,7 +21,7 @@ export class SaleService {
   }
 
   deleteSale(sale:Sale): Observable<Sale>{
-    return this.http.delete<Sale>(this.saleUrl+ `/${sale.idSale}`);
+    return this.http.delete<Sale>(this.saleUrl+`/${sale.idSale}`);
   }
 
   getSale(idSale:string): Observable<Sale>{
@@ -29,6 +29,7 @@ export class SaleService {
   }
 
   createSale(saleToCreate:Sale):Observable<Sale>{
+    console.log(saleToCreate);
     return this.http.post<any>(this.saleUrl, saleToCreate, httpOptions);
   }
 

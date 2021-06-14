@@ -9,6 +9,7 @@ import { DetailSpareComponent } from './components/detail-spare/detail-spare.com
 import { LoginComponent } from './components/login/login.component';
 import { SalesFormComponent } from './forms/sales-form/sales-form.component';
 import { SalesComponent } from './components/sales/sales.component';
+import { SaleComponent } from './components/sale/sale.component';
 const routes: Routes = [
   {
     path: "vehicles-list",
@@ -45,6 +46,10 @@ const routes: Routes = [
   {
     path: "sales",
     component: SalesComponent
+  },
+  {
+    path: "sale/:id",
+    component: SaleComponent
   }
 
   

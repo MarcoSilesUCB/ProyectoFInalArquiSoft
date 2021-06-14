@@ -11,14 +11,6 @@
         </div>
 
         <div class="row col-md-7"> 
-
-            <!-- idSale: number=0;
-            idItem: number =0;
-            nameBuyer: string ="";
-            amount: number=0;
-            totalSale:number=0;
-            dateSale: string=""; -->
-           
             
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="vehicleType">Marca</label>
@@ -43,14 +35,14 @@
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="vehicleAmount">Cantidad</label>
                 <div class="col-md-8">
-                    <input type="text" class="form-control" id="saleAmount-id" name="saleAmount-id" [(ngModel)]="sale.amount">
+                    <input type="number" class="form-control" id="saleAmount-id" name="saleAmount-id" [(ngModel)]="sale.amount">
                 </div>
             </div>
 
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="totalSale">Precio total</label>
                 <div class="col-md-8">
-                    <input type="text" class="form-control" id="totalSale-id" name="totalSale-id" [(ngModel)]="sale.totalSale">
+                    <input type="number" class="form-control" id="totalSale-id" name="totalSale-id" [(ngModel)]="sale.totalSale">
                 </div>
             </div>
 
@@ -63,7 +55,8 @@
         </div>
       
         <div class="text-center mt-3">
-            <button  type="button" class="btn btn-light btn-agregar">Cancelar</button>
+            <button  type="button" class="btn btn-light btn-agregar" (click)="onSubmit()">Comprar Ahora</button>
+            <button  type="button" class="btn btn-light btn-agregar" routerLink="vehicles-list">Cancelar</button>
         </div>
 
     </form>

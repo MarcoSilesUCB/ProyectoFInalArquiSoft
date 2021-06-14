@@ -1,1 +1,12 @@
 <p>sale works!</p>
+
+<div>Comprador: {{sale.nameBuyer}}</div>
+<div>Cantidad: {{sale.amount}}</div>
+<div>Monto: {{sale.totalSale}}</div>
+<div>Fecha: {{sale.dateSale}}</div>
+
+
+<div class="col-md-12">
+    <button type="button" class="m-1 float-right" (click)="deleteSale(sale)">Eliminar</button>
+    <button type="button" class="btn m-1 float-right" routerLink="/sales">Atrás</button>
+</div>

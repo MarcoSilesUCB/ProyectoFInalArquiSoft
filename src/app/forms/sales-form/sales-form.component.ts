@@ -24,7 +24,7 @@ export class SalesFormComponent implements OnInit {
   isNew: any;
   sale: Sale = new Sale();
   vehicle: any = {
-    id: ''
+    id: '',
   }
 
   ngOnInit(): void {
@@ -39,6 +39,7 @@ export class SalesFormComponent implements OnInit {
 
   onSubmit(){
    this.saleService.createSale(this.sale).subscribe(s =>{this.sale=s});
+   this._location.back(); 
   }
 
   async init(id: any) {
