@@ -7,6 +7,8 @@ import { SparesFormComponent } from './forms/spares-form/spares-form.component';
 import { DetailVehicleComponent } from './components/detail-vehicle/detail-vehicle.component';
 import { DetailSpareComponent } from './components/detail-spare/detail-spare.component';
 import { LoginComponent } from './components/login/login.component';
+import { SalesFormComponent } from './forms/sales-form/sales-form.component';
+import { SalesComponent } from './components/sales/sales.component';
 const routes: Routes = [
   {
     path: "vehicles-list",
@@ -37,9 +39,15 @@ const routes: Routes = [
     component: LoginComponent
   },
   {
-    path: "",
-    component: VehiclesComponent
+    path: "sales-form",
+    component: SalesFormComponent
+  },
+  {
+    path: "sales",
+    component: SalesComponent
   }
+
+  
 ];
 
 @NgModule({

@@ -1,0 +1,132 @@
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.exe
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.deps.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.runtimeconfig.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.runtimeconfig.dev.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.dll
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.pdb
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csprojAssemblyReference.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.AssemblyInfoInputs.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.AssemblyInfo.cs
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csproj.CoreCompileInputs.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\staticwebassets\BackendConcesionaria.StaticWebAssets.Manifest.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\staticwebassets\BackendConcesionaria.StaticWebAssets.xml
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\scopedcss\bundle\BackendConcesionaria.styles.css
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.RazorTargetAssemblyInfo.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.dll
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.pdb
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Proyecto\C# Backend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.genruntimeconfig.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csprojAssemblyReference.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.AssemblyInfoInputs.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.AssemblyInfo.cs
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csproj.CoreCompileInputs.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.dll
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.pdb
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.exe
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.deps.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.runtimeconfig.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.runtimeconfig.dev.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.dll
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.pdb
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\staticwebassets\BackendConcesionaria.StaticWebAssets.Manifest.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\staticwebassets\BackendConcesionaria.StaticWebAssets.xml
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\scopedcss\bundle\BackendConcesionaria.styles.css
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.RazorTargetAssemblyInfo.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.genruntimeconfig.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csprojAssemblyReference.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.AssemblyInfoInputs.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.AssemblyInfo.cs
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csproj.CoreCompileInputs.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.dll
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.pdb
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.exe
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.deps.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.runtimeconfig.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.runtimeconfig.dev.json
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.dll
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.pdb
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\staticwebassets\BackendConcesionaria.StaticWebAssets.Manifest.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\staticwebassets\BackendConcesionaria.StaticWebAssets.xml
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\scopedcss\bundle\BackendConcesionaria.styles.css
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.RazorTargetAssemblyInfo.cache
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csproj.CopyComplete
+C:\Users\Antonio\Documents\Universidad\Arquitectura de software\Concesionaria proyecto final\ProyectoBackend\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.genruntimeconfig.cache
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\appsettings.json
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.exe
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.deps.json
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.runtimeconfig.json
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.runtimeconfig.dev.json
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.dll
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.pdb
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csprojAssemblyReference.cache
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.AssemblyInfoInputs.cache
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.AssemblyInfo.cs
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csproj.CoreCompileInputs.cache
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.MvcApplicationPartsAssemblyInfo.cache
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\staticwebassets\BackendConcesionaria.StaticWebAssets.Manifest.cache
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\staticwebassets\BackendConcesionaria.StaticWebAssets.xml
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\scopedcss\bundle\BackendConcesionaria.styles.css
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.RazorTargetAssemblyInfo.cache
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csproj.CopyComplete
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.dll
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.pdb
+D:\I-2021\Arquitectura de Software\Proyecto concesionaria\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.genruntimeconfig.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.exe
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.deps.json
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.runtimeconfig.json
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.runtimeconfig.dev.json
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.dll
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.pdb
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csprojAssemblyReference.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.RazorTargetAssemblyInfo.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\staticwebassets\BackendConcesionaria.StaticWebAssets.Manifest.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\staticwebassets\BackendConcesionaria.StaticWebAssets.xml
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.dll
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.pdb
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Proyecto Final\BackendConcessionaire\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.genruntimeconfig.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.exe
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.deps.json
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.runtimeconfig.json
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.runtimeconfig.dev.json
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.dll
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\BackendConcesionaria.pdb
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csprojAssemblyReference.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.RazorTargetAssemblyInfo.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\staticwebassets\BackendConcesionaria.StaticWebAssets.Manifest.cache
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\staticwebassets\BackendConcesionaria.StaticWebAssets.xml
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.dll
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.pdb
+C:\Users\USUARIO\Desktop\Arquitectura\Repositorio Marco\ProyectoFInalArquiSoft\BackendConcesionaria\BackendConcesionaria\obj\Debug\netcoreapp3.1\BackendConcesionaria.genruntimeconfig.cache

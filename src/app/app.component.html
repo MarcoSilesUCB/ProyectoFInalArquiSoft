@@ -4,6 +4,7 @@
   </a>
   <a class="navbar-brand" routerLink="vehicles-list">Vehículos</a>
   <a class="navbar-brand" routerLink="spares-list">Repuestos</a>
+  <a class="navbar-brand" routerLink="sales">Ventas</a>
   <a *ngIf="!isLoggedIn" class="navbar-brand" routerLink="login">Iniciar Sesión</a>
   <a *ngIf="isLoggedIn" class="navbar-brand" (click)="logout()">Cerrar Sesión</a>
 </nav>

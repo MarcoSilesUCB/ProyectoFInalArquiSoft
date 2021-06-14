@@ -12,7 +12,9 @@ import { Motorcycle } from '../../models/motorcycle.model';
 export class DetailVehicleComponent implements OnInit {
 
   id: string = '';
-  vehicle: any;
+  vehicle: any = {
+    id: ''
+  }
 
   constructor(
     public router: Router,
@@ -26,6 +28,12 @@ export class DetailVehicleComponent implements OnInit {
       this.id = params.get('id') as string;
       this.vehicle = await this.vehicleService.getVehicle(this.id);
     });
+  }
+
+  async buyVehicle(id: any) {
+    var auxIdVehicle = this.id;
+    console.log(auxIdVehicle);
+    this.router.navigate(["/sales-form"], { queryParams: { id, auxIdVehicle } });
   }
 
 }

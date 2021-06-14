@@ -3,11 +3,11 @@ export class Car {
     color: string = "";
     model: string = "";
     brand: string = "";
-    price: number = 0;
+    price: string ="";
     fuelType: string = "";
     amount: string = "";
     type: string = "";
     category: string = "";
-    displacement: number = 0;
-    seating: number = 0;
+    displacement: string ="";
+    seating: string ="";
 }
