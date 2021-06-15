@@ -5,6 +5,7 @@ import * as moment from 'moment';
 import { ActivatedRoute, Router } from '@angular/router';
 import { VehicleService } from 'src/app/services/vehicle.service';
 import { Location } from '@angular/common';
+import { VirtualTimeScheduler } from 'rxjs';
 
 @Component({
   selector: 'app-sales-form',
@@ -26,6 +27,7 @@ export class SalesFormComponent implements OnInit {
   vehicle: any = {
     id: '',
   }
+  labelTotalSale: number;
 
   ngOnInit(): void {
     this.route.queryParams.subscribe(async params => {
@@ -38,6 +40,7 @@ export class SalesFormComponent implements OnInit {
   }
 
   onSubmit() {
+    this.sale.totalSale = Number(this.vehicle.totalSale);
     this.saleService.createSale(this.sale).subscribe(s => { this.sale = s });
     this.backClick();
   }
