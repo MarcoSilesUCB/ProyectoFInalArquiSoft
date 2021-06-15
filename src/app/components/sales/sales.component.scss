@@ -1,0 +1,38 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #D1C4E9;
+    background-repeat: no-repeat
+}
+
+.card {
+    margin: 60px auto;
+    border: none !important;
+    width: 450px
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 350px
+    }
+}
+
+.card-strip {
+    border-bottom: 1px solid lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.btn {
+    height: 55px;
+    margin: 20px 0px;
+    font-weight: bold;
+    letter-spacing: 1px
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #000;
+    border: 1px gray solid
+}
