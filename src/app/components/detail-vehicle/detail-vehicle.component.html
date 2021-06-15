@@ -4,9 +4,9 @@
             <div class="preview col-md-6">
                 <div class="tab-content">
                     <div class="tab-pane active" id="pic-1">
-                        <img *ngIf="vehicle.type =='car'" class="card-img-body" src="../../../assets/images/suzuki1.png"
-                            alt="Card image cap">
-                        <img *ngIf="vehicle.type =='motorcycle'" class="card-img-body"
+                        <img *ngIf="vehicle.type =='Auto'" class="card-img-body"
+                            src="../../../assets/images/suzuki1.png" alt="Card image cap">
+                        <img *ngIf="vehicle.type =='Moto'" class="card-img-body"
                             src="../../../assets/images/motonegra.png" alt="Card image cap">
                     </div>
 
@@ -14,7 +14,7 @@
             </div>
             <div class="details col-md-6">
                 <h1 class="product-title">{{vehicle.brand}}</h1>
-                <h4><b>Precio: </b>{{vehicle.price}} $</h4>
+                <h4><b>Precio: </b>{{vehicle.totalSale}} $</h4>
                 <h4><b>Modelo: </b>{{vehicle.model}}</h4>
                 <h4><b>Tipo de combustible: </b>{{vehicle.fuelType}}</h4>
                 <h4><b>Cantidad: </b>{{vehicle.amount}}</h4>
@@ -30,6 +30,7 @@
                 </div>
             </div>
         </div>
-        <button  type="button" class="btn btn-light btn-agregar" (click)="buyVehicle('')">Comprar</button>
+        <button *ngIf="!isLoggedIn" type="button" class="btn btn-light btn-agregar"
+            (click)="buyVehicle('')">Comprar</button>
     </div>
 </div>

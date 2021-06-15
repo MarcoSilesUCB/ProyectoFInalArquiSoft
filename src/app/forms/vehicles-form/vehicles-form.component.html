@@ -1,10 +1,12 @@
 <div class="container">
     <div class="title text-center mt-2">
-        <h2 *ngIf="isNew" class="p-2" >AGREGAR VEHICULO         
-            <button *ngIf="isNew" type="button" class="btn btn-light float-right btn-cancelar" routerLink="/vehicles-list">X</button>
+        <h2 *ngIf="isNew" class="p-2">AGREGAR VEHICULO
+            <button *ngIf="isNew" type="button" class="btn btn-light float-right btn-cancelar"
+                routerLink="/vehicles-list">X</button>
         </h2>
         <h1 *ngIf="!isNew" class="p-2">EDITAR VEHICULO
-            <button *ngIf="!isNew" type="button" class="btn btn-light float-right btn-cancelar" routerLink="/vehicles-list">X</button>
+            <button *ngIf="!isNew" type="button" class="btn btn-light float-right btn-cancelar"
+                routerLink="/vehicles-list">X</button>
         </h1>
     </div>
 
@@ -13,23 +15,24 @@
             <img class="btn btn-img" src="https://static.thenounproject.com/png/396915-200.png" alt="">
         </div>
 
-        <div class="row col-md-7"> 
+        <div class="row col-md-7">
 
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="vehicleType">Tipo</label>
                 <div class="col-md-8">
                     <select class="form-control" id="vehicleType-id" name="vehicletype-id" [(ngModel)]="vehicle.type">
                         <option selected disabled value=''> Seleccionar Tipo de Vehiculo</option>
-                        <option selected value='car'> Auto</option>
-                        <option selected value='motorcycle'>Moto</option>
+                        <option selected value='Auto'> Auto</option>
+                        <option selected value='Moto'>Moto</option>
                     </select>
-                </div>    
+                </div>
             </div>
 
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="vehicleBrand">Marca</label>
                 <div class="col-md-8">
-                    <input type="text" class="form-control" id="carBrand-id" name="carBrand-id" [(ngModel)]="vehicle.brand">
+                    <input type="text" class="form-control" id="carBrand-id" name="carBrand-id"
+                        [(ngModel)]="vehicle.brand">
                 </div>
             </div>
 
@@ -43,7 +46,8 @@
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="vehiclePrice">Precio</label>
                 <div class="col-md-8">
-                    <input type="text" class="form-control" id="price-id" name="price-id" [(ngModel)]="vehicle.price">
+                    <input type="text" class="form-control" id="price-id" name="price-id"
+                        [(ngModel)]="vehicle.totalSale">
                 </div>
             </div>
 
@@ -53,33 +57,37 @@
                     <input type="text" class="form-control" id="model-id" name="model-id" [(ngModel)]="vehicle.model">
                 </div>
             </div>
- 
+
 
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="vehicleAmount">Cantidad</label>
                 <div class="col-md-8">
-                    <input type="number" class="form-control" id="amount-id" name="amount-id" [(ngModel)]="vehicle.amount">
+                    <input type="number" class="form-control" id="amount-id" name="amount-id"
+                        [(ngModel)]="vehicle.amount">
                 </div>
             </div>
 
             <div class="row col-md-12 mb-3">
                 <label class="col-md-3" for="vehicleFuel">Combustible</label>
                 <div class="col-md-8">
-                    <input type="text" class="form-control" id="fuelType-id" name="fuelType-id" [(ngModel)]="vehicle.fuelType">
+                    <input type="text" class="form-control" id="fuelType-id" name="fuelType-id"
+                        [(ngModel)]="vehicle.fuelType">
                 </div>
             </div>
 
             <div *ngIf='vehicle.type == "car"' class="row col-md-12 mb-3">
-                <label  class="col-md-3" for="vehicleCategory">Categoría</label>
+                <label class="col-md-3" for="vehicleCategory">Categoría</label>
                 <div class="col-md-8">
-                    <input type="text" class="form-control" id="category-id" name="category-id" [(ngModel)]="vehicle.category">
+                    <input type="text" class="form-control" id="category-id" name="category-id"
+                        [(ngModel)]="vehicle.category">
                 </div>
             </div>
 
             <div *ngIf='vehicle.type == "car"' class="row col-md-12 mb-3">
-                <label  class="col-md-3"for="vehicleDisplacement">Cilindrada</label>
+                <label class="col-md-3" for="vehicleDisplacement">Cilindrada</label>
                 <div class="col-md-8">
-                    <input type="text" class="form-control" id="displacement-id" name="displacement-id" [(ngModel)]="vehicle.displacement">
+                    <input type="text" class="form-control" id="displacement-id" name="displacement-id"
+                        [(ngModel)]="vehicle.displacement">
                 </div>
             </div>
 
@@ -87,27 +95,30 @@
             </div>
 
             <div *ngIf='vehicle.type == "car"' class="row col-md-12 mb-3">
-                <label  class="col-md-3" for="vehicleSeating">Asientos</label>
+                <label class="col-md-3" for="vehicleSeating">Asientos</label>
                 <div class="col-md-8">
-                    <input type="text" class="form-control" id="seating-id" name="seating-id" [(ngModel)]="vehicle.seating">
-                </div>
-            </div>
-         
-            <div *ngIf='vehicle.type == "motorcycle"' class="row col-md-12 mb-3">
-                <label class="col-md-3" for="vehicleTransmission">Transmisión </label>
-                <div class="col-md-8">
-                    <input type="text" class="form-control" id="transmission-id" name="transmission-id" [(ngModel)]="vehicle.transmission">
+                    <input type="text" class="form-control" id="seating-id" name="seating-id"
+                        [(ngModel)]="vehicle.seating">
                 </div>
             </div>
 
-            
+            <div *ngIf='vehicle.type == "motorcycle"' class="row col-md-12 mb-3">
+                <label class="col-md-3" for="vehicleTransmission">Transmisión </label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="transmission-id" name="transmission-id"
+                        [(ngModel)]="vehicle.transmission">
+                </div>
+            </div>
+
+
         </div>
-      
+
         <div class="text-center mt-3">
-            <button *ngIf="isNew" type="button" class="btn btn-light btn-agregar" (click)="createVehicle(vehicle)">Agregar</button>
-            <button *ngIf="!isNew" type="button" class="btn btn-light btn-agregar" (click)="editVehicle(vehicle)">Confirmar</button>
+            <button *ngIf="isNew" type="button" class="btn btn-light btn-agregar"
+                (click)="createVehicle(vehicle)">Agregar</button>
+            <button *ngIf="!isNew" type="button" class="btn btn-light btn-agregar"
+                (click)="editVehicle(vehicle)">Confirmar</button>
         </div>
 
     </form>
 </div>
-    

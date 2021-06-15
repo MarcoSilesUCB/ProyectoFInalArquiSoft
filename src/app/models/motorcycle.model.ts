@@ -3,7 +3,7 @@ export class Motorcycle {
     color: string = "";
     model: string = "";
     brand: string = "";
-    price: number = 0;
+    totalSale: string = "";
     fuelType: string = "";
     amount: string = "";
     type: string = "";

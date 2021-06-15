@@ -3,6 +3,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { VehicleService } from '../../services/vehicle.service';
 import { Car } from '../../models/car.model';
 import { Motorcycle } from '../../models/motorcycle.model';
+import { AuthenticationService } from '../../services/authentication.service';
+
 
 @Component({
   selector: 'app-detail-vehicle',
@@ -15,11 +17,14 @@ export class DetailVehicleComponent implements OnInit {
   vehicle: any = {
     id: ''
   }
+  isLoggedIn = false;
+
 
   constructor(
     public router: Router,
     private route: ActivatedRoute,
-    public vehicleService: VehicleService
+    public vehicleService: VehicleService,
+    public authenticationService: AuthenticationService
 
   ) { }
 
@@ -28,6 +33,7 @@ export class DetailVehicleComponent implements OnInit {
       this.id = params.get('id') as string;
       this.vehicle = await this.vehicleService.getVehicle(this.id);
     });
+    this.isLoggedIn = this.authenticationService.isLoggedIn();
   }
 
   async buyVehicle(id: any) {
