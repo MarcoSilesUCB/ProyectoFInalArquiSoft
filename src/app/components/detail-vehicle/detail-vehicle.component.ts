@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { VehicleService } from '../../services/vehicle.service';
-import { Car } from '../../models/car.model';
-import { Motorcycle } from '../../models/motorcycle.model';
 import { AuthenticationService } from '../../services/authentication.service';
 
 
@@ -38,7 +36,6 @@ export class DetailVehicleComponent implements OnInit {
 
   async buyVehicle(id: any) {
     var auxIdVehicle = this.id;
-    console.log(auxIdVehicle);
     this.router.navigate(["/sales-form"], { queryParams: { id, auxIdVehicle } });
   }
 

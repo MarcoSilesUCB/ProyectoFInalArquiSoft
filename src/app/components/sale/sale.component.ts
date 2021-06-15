@@ -34,11 +34,4 @@ export class SaleComponent implements OnInit {
 
   }
 
-  async deleteSale(sale: Sale) {
-    
-    this.saleService.deleteSale(sale);
-    this.router.navigateByUrl('/sales');
-  }
-
-
 }

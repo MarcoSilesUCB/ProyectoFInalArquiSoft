@@ -1,12 +1,33 @@
-<p>sale works!</p>
-
-<div>Comprador: {{sale.nameBuyer}}</div>
-<div>Cantidad: {{sale.amount}}</div>
-<div>Monto: {{sale.totalSale}}</div>
-<div>Fecha: {{sale.dateSale}}</div>
-
-
-<div class="col-md-12">
-    <button type="button" class="m-1 float-right" (click)="deleteSale(sale)">Eliminar</button>
-    <button type="button" class="btn m-1 float-right" routerLink="/sales">Atrás</button>
+<div class="container-fluid px-1 py-5 mx-auto">
+    <div class="row d-flex justify-content-center">
+        <div class="card">
+            <div class="row d-flex justify-content-between mx-2 px-3 card-strip">
+                <div class="left d-flex flex-column">
+                    <h5 class="mb-1">Comprador</h5>
+                    <p class="text-muted mb-1 sm-text">{{sale.nameBuyer}}</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-between mx-2 px-3 card-strip">
+                <div class="left d-flex flex-column">
+                    <h5 class="mb-1">Cantidad</h5>
+                    <p class="text-muted mb-1 sm-text">{{sale.amount}}</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-between mx-2 px-3 card-strip">
+                <div class="left d-flex flex-column">
+                    <h5 class="mb-1">Monto</h5>
+                    <p class="text-muted mb-1 sm-text">{{sale.totalSale}}</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-between mx-2 px-3 card-strip">
+                <div class="left d-flex flex-column">
+                    <h5 class="mb-1">Fecha</h5>
+                    <p class="text-muted mb-1 sm-text">{{sale.dateSale}}</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-between mx-2 px-3"> 
+                <button class="btn btn-white" routerLink="/sales">Atras</button>  
+            </div>
+        </div>
+    </div>
 </div>
