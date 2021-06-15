@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\Desktop\\Arquitectura\\Repositorio Marco\\ProyectoFInalArquiSoft\\BackendConcesionaria\\BackendConcesionaria\\BackendConcesionaria.csproj": {}
+    "C:\\Users\\Antonio\\Documents\\Universidad\\Arquitectura de software\\Concesionaria proyecto final\\ProyectoFrontend\\ProyectoFInalArquiSoft\\BackendConcesionaria\\BackendConcesionaria\\BackendConcesionaria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\Desktop\\Arquitectura\\Repositorio Marco\\ProyectoFInalArquiSoft\\BackendConcesionaria\\BackendConcesionaria\\BackendConcesionaria.csproj": {
+    "C:\\Users\\Antonio\\Documents\\Universidad\\Arquitectura de software\\Concesionaria proyecto final\\ProyectoFrontend\\ProyectoFInalArquiSoft\\BackendConcesionaria\\BackendConcesionaria\\BackendConcesionaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\Arquitectura\\Repositorio Marco\\ProyectoFInalArquiSoft\\BackendConcesionaria\\BackendConcesionaria\\BackendConcesionaria.csproj",
+        "projectUniqueName": "C:\\Users\\Antonio\\Documents\\Universidad\\Arquitectura de software\\Concesionaria proyecto final\\ProyectoFrontend\\ProyectoFInalArquiSoft\\BackendConcesionaria\\BackendConcesionaria\\BackendConcesionaria.csproj",
         "projectName": "BackendConcesionaria",
-        "projectPath": "C:\\Users\\USUARIO\\Desktop\\Arquitectura\\Repositorio Marco\\ProyectoFInalArquiSoft\\BackendConcesionaria\\BackendConcesionaria\\BackendConcesionaria.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Desktop\\Arquitectura\\Repositorio Marco\\ProyectoFInalArquiSoft\\BackendConcesionaria\\BackendConcesionaria\\obj\\",
+        "projectPath": "C:\\Users\\Antonio\\Documents\\Universidad\\Arquitectura de software\\Concesionaria proyecto final\\ProyectoFrontend\\ProyectoFInalArquiSoft\\BackendConcesionaria\\BackendConcesionaria\\BackendConcesionaria.csproj",
+        "packagesPath": "C:\\Users\\Antonio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Antonio\\Documents\\Universidad\\Arquitectura de software\\Concesionaria proyecto final\\ProyectoFrontend\\ProyectoFInalArquiSoft\\BackendConcesionaria\\BackendConcesionaria\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -66,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import firebase from 'firebase/app';
 import "firebase/firestore";
-import { CarService } from './services/car.service';
-import { Car } from '../app/models/car.model';
 import { Router } from '@angular/router';
 import { AuthenticationService } from './services/authentication.service';
 
@@ -17,12 +15,8 @@ export class AppComponent {
 
   constructor(
     public router: Router,
-    public carsService: CarService,
     private authenticationService: AuthenticationService,
   ) { }
-
-  car: Car = new Car();
-
 
   async ngOnInit() {
     await this.initFirebase();
@@ -43,7 +37,6 @@ export class AppComponent {
       appId: "1:1096578244105:web:b8db8d95532a876db262d8",
       measurementId: "G-6W8TYM3933"
     };
-    // Initialize Firebase
     await firebase.initializeApp(firebaseConfig);
 
   }
